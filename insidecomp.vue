@@ -1,5 +1,8 @@
 <template lang="html">
-  <div>inside</div>
+  <div>
+    <div class="test-self-close" />
+    <div>inside</div>
+  </div>
 </template>
 
 <script>
@@ -10,5 +13,6 @@ export default {
 <style scoped>
 
 div { color: red; }
+.test-self-close { background: yellow; }
 
 </style>

@@ -12,8 +12,9 @@
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^1.0.0",
-    "parcel-bundler": "parcel-bundler/parcel#vue-v3",
+    "parcel-bundler": "^1.7.0",
     "parcel-vue-component-compiler": "^3.0.1",
+    "serve": "^6.5.3",
     "vue-template-compiler": "*"
   }
 }
